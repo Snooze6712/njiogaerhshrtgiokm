@@ -16,7 +16,7 @@ jobs:
         python-version: 3.11 
       
     - name: Installing all necessary packages
-      run: pip install requests codecs beautifulsoup4 
+      run: pip install requests beautifulsoup4 
        
     - name: Run script
       run: python main.py
